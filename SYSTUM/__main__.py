@@ -50,12 +50,12 @@ async def init():
         pass
     await KING.decorators()
     LOGGER("SYSTUM").info(
-        "DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @BRANDEDKING82 JOIN @BRANDRD_BOT , @BRANDED_WORLD FOR ANY ISSUES"
+        "Join @EvonsUpdates"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SYSTUM").info("Stopping SYSTUM Music Bot...")
+    LOGGER("SYSTUM").info("stoppin...")
 
 
 if __name__ == "__main__":
