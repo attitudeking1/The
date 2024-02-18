@@ -14,7 +14,7 @@ def stats_buttons(_, status):
     ]
     upl = InlineKeyboardMarkup(
         [
-            sudo if status else,
+            sudo if status else None,
             [
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
