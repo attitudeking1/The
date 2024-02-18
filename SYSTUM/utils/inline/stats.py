@@ -2,6 +2,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
 def stats_buttons(_, status):
+    not_sudo = "restricted cmd"
     sudo = [
         InlineKeyboardButton(
             text=_["SA_B_2"],
@@ -14,7 +15,7 @@ def stats_buttons(_, status):
     ]
     upl = InlineKeyboardMarkup(
         [
-            sudo if status else None,
+            sudo if status else not_sudo,
             [
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
